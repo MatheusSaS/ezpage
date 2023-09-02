@@ -5508,7 +5508,7 @@
 						<a
 							class="inline-flex justify-center rounded-lg py-2 px-3 text-sm font-semibold outline-2 outline-offset-2 transition-colors bg-gray-800 text-white hover:bg-gray-900 active:bg-gray-800 active:text-white/80 mt-6"
 							aria-label="Get started with the Starter plan for [object Object]"
-							href="/register">Get started for free</a
+							href="#">Get started for free</a
 						>
 					</section>
 					<section
@@ -5663,7 +5663,7 @@
 						<a
 							class="inline-flex justify-center rounded-lg py-2 px-3 text-sm font-semibold outline-2 outline-offset-2 transition-colors bg-gray-800 text-white hover:bg-gray-900 active:bg-gray-800 active:text-white/80 mt-6"
 							aria-label="Get started with the Investor plan for [object Object]"
-							href="/register">Subscribe</a
+							href="#">Subscribe</a
 						>
 					</section>
 					<section
@@ -5841,7 +5841,7 @@
 						<a
 							class="inline-flex justify-center rounded-lg py-2 px-3 text-sm font-semibold outline-2 outline-offset-2 transition-colors relative overflow-hidden bg-cyan-500 text-white before:absolute before:inset-0 active:before:bg-transparent hover:before:bg-white/10 active:bg-cyan-600 active:text-white/80 before:transition-colors mt-6"
 							aria-label="Get started with the VIP plan for [object Object]"
-							href="/register">Subscribe</a
+							href="#">Subscribe</a
 						>
 					</section>
 				</div>

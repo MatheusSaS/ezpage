@@ -66,7 +66,7 @@
                 <p class="mt-3 text-center text-lg text-gray-600">
                     Don’t have an account? <a
                         class="text-ezpage"
-                        href="/register">Sign up</a
+                        href="#">Sign up</a
                     > for a free trial.
                 </p>
             </div>
