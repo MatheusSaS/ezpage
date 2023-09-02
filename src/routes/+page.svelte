@@ -6075,7 +6075,7 @@
 							height="80"
 							decoding="async"
 							data-nimg="1"
-							src="/_next/static/media/qr-code.9c4a9a95.svg"
+							src="#"
 							style="color: transparent;"
 						/>
 					</div>
