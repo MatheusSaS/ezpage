@@ -22,15 +22,8 @@
                         tabindex="0"
                         class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 z-999"
                     >
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <a>Parent</a>
-                            <ul class="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a>Item 3</a></li>
+                        <li><a href="/#etapas">Etapas</a></li>
+                        <li><a href="/#preco">Preço</a></li>
                     </ul>
                 </div>
                 <a
@@ -120,17 +113,8 @@
                     <p class="hidden lg:flex">EZPAGE</p>
                 </a>
                 <ul class="menu menu-horizontal px-1 hidden lg:flex">
-                    <li><a>Item 1</a></li>
-                    <li tabindex="0">
-                        <details>
-                            <summary>Parent</summary>
-                            <ul class="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </details>
-                    </li>
-                    <li><a>Item 3</a></li>
+                    <li><a href="/#etapas">Etapas</a></li>
+                    <li><a href="/#preco">Preço</a></li>
                 </ul>
             </div>
             <div class="navbar-end">

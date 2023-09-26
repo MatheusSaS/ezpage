@@ -1,3 +1,16 @@
+<script lang="ts">
+    const creatPageZero = () => {
+        let mensagem: string;
+
+        mensagem = `
+        Olá Matheus, vim através da Ezpage e gostaria de um site feito do zero, personalizado para atender às minhas necessidades!`;
+
+        window.open(`
+        https://api.whatsapp.com/send/?phone=5517997123536&text=${mensagem}
+      `);
+    };
+</script>
+
 <section class="pt-8 border-t border-brand-section-dashboard">
     <div class="container px-4 mx-auto">
         <div
@@ -22,13 +35,13 @@
                     menos de R$ 1 real por dia
                 </p>
                 <div class="sm:flex items-center">
-                    <a
+                    <button
+                        on:click={() => creatPageZero()}
                         class="flex-1 flex justify-center items-center py-3 px-4 sm:max-w-max bg-white hover:bg-gray-100 text-sm text-brand-text text-center font-medium leading-tight rounded transition duration-100"
-                        href="/new"
                     >
                         <i class="fa-brands fa-whatsapp mr-2" />
                         Ou crie o seu do zero
-                    </a>
+                    </button>
                 </div>
             </div>
         </div>

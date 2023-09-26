@@ -6,9 +6,7 @@
                 Easily create landing pages, dashboards, and e-commerce
                 templates.
             </p>
-            <div
-                class="flex flex-wrap -mx-4 mb-12 items-center justify-center"
-            >
+            <div class="flex flex-wrap -mx-4 mb-12 items-center justify-center">
                 <div class="w-full lg:w-1/3 px-4">
                     <a
                         href="/templates"
@@ -102,10 +100,10 @@
                         </svg>
                     </div>
                     <p>
-                        "I've been using Shuffle for a few months now, and I
-                        couldn't be happier with its capabilities! It has
-                        made designing and building responsive websites much
-                        easier and more efficient."
+                        "Recorri a Ezpage para desenvolver o site da minha
+                        empresa. Sempre atenciosos, solícitos e dispostos a ajudar
+                        nas minhas dúvidas, eles fizeram um serviço nota 10 e com um
+                        ótimo custo X beneficio. Recomendo!"
                     </p>
                 </div>
             </div>

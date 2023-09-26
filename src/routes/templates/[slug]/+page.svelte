@@ -11,8 +11,7 @@
     const modelsTemplates: templatesOBJ[] = [
         {
             typename: "Site para qualquer empresa",
-            description:
-                "Modelo pronto para qualquer empresa",
+            description: "Modelo pronto para qualquer empresa",
             subdescription:
                 "Construa uma marca bem apresentada que todos irão adorar. Tenha o cuidado de desenvolver recursos continuamente e integrá-los a projetos anteriores.",
             templatename: "ux-template",
@@ -37,7 +36,8 @@
         },
         {
             typename: "Site para agência de marketing",
-            description: "Modelo de site de agência de marketing de consultores confiáveis",
+            description:
+                "Modelo de site de agência de marketing de consultores confiáveis",
             subdescription:
                 "Num mundo de confiança limitada, destaque-se com uma mensagem sobre a fiabilidade dos seus serviços. Mostre um estudo de caso detalhado com estatísticas e demonstre claramente por que você é o melhor para atender clientes em potencial. Aumente a experiência do seu blog e continue adicionando mais páginas perfeitamente com um conjunto cuidadoso de componentes para um modelo de site de agência de marketing.",
             templatename: "reliable-advisors-marketing-agency-website-template",
@@ -85,6 +85,17 @@
         },
     ];
 
+    const creatByTemplate = (name:string) => {
+        let mensagem: string;
+
+        mensagem = `
+        Olá Matheus, vim através da Ezpage e gostaria do meu site baseado no template: ${name}`;
+
+        window.open(`
+        https://api.whatsapp.com/send/?phone=5517997123536&text=${mensagem}
+      `);
+    };
+
     const nameTemplate = $page.params.slug ? $page.params.slug : null;
     let template: templatesOBJ;
 
@@ -94,8 +105,6 @@
             break;
         }
     }
-
-    $: console.log({ slug: $page.params.slug });
 </script>
 
 {#if template}
@@ -136,7 +145,7 @@
                         {template.subdescription}
                     </p>
                     <div
-                        class="flex flex-wrap items-center justify-between py-3 border-t border-brand-section-dashboard"
+                        class="flex-wrap items-center justify-between py-3 border-t border-brand-section-dashboard hidden"
                     >
                         <span class="text-sm font-medium">Preview</span>
                         <div
@@ -195,14 +204,12 @@
                             </button>
                         </div>
                     </div>
-                    <a
+                    <button
+                        on:click={() => creatByTemplate(template.templatename)}
                         class="w-full btn btn-ezpage"
-                        href="/preset/aafb76d95e4388616f9ec2de201a1316b0fe0788"
-                        target="_blank"
-                        rel="noopener"
                     >
                         Eu quero este template 😍
-                    </a>
+                    </button>
                 </div>
             </div>
         </div>

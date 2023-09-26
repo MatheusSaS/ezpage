@@ -1,10 +1,4 @@
-<section
-	data-section-id="1"
-	data-share=""
-	data-category="pricing"
-	data-component-id="3ccf8f54_01_awz"
-	class="relative bg-ezpage-light overflow-hidden"
->
+<section id="preco" class="relative bg-ezpage-light overflow-hidden">
 	<img
 		class="absolute top-1/2 right-0 transform -translate-y-1/2"
 		src="https://shuffle.dev/flaro-assets/images/pricing/gradient.svg"
@@ -14,7 +8,7 @@
 	<div class="relative z-10 container px-4 mx-auto">
 		<div class="flex flex-wrap lg:items-center -m-8">
 			<div class="w-full md:w-1/2 p-8">
-				<div class="md:max-w-md">
+				<div class="md:max-w-md py-8">
 					<h2
 						class="mb-16 lg:mb-52 text-6xl md:text-6xlxl xl:text-10xl font-bold font-heading tracking-px-n leading-none"
 						data-config-id="auto-txt-1-1"
@@ -25,32 +19,36 @@
 						class="mb-6 text-lg text-gray-900 font-semibold leading-normal"
 						data-config-id="auto-txt-2-1"
 					>
-					Criação de Landing Page.
-					Feito para você vender mais!
+						Criação de Landing Page. Feito para você vender mais!
 					</h3>
 					<p
 						class="font-medium text-gray-600 leading-relaxed"
 						data-config-id="auto-txt-3-1"
 					>
-					Landing page é uma página única que possui o único objetivo de converter o visitante do seu site em lead ou cliente potencial.
-
-					A Landing page é fundamental para quem vai anunciar no Google ou no Facebook e precisa obter o máximo de conversão em sua campanha.
-					
-					Com uma Landing Page você irá atrair mais leads e vender mais, porque você irá falar exatamente o que seu cliente procura naquele momento quando clicou em seu anúncio. Isso faz com que o visitante que acessa seu site entenda perfeitamente o que você oferece, aumentando assim a taxa de conversão.
-					
-					Por isso, se você anuncia no Google e no Facebook e não tem uma Landing Page, peça agora a sua e se prepare para receber clientes todos os dias!
+						Landing page é uma página única que possui o único
+						objetivo de converter o visitante do seu site em lead ou
+						cliente potencial. A Landing page é fundamental para
+						quem vai anunciar no Google ou no Facebook e precisa
+						obter o máximo de conversão em sua campanha. Com uma
+						Landing Page você irá atrair mais leads e vender mais,
+						porque você irá falar exatamente o que seu cliente
+						procura naquele momento quando clicou em seu anúncio.
+						Isso faz com que o visitante que acessa seu site entenda
+						perfeitamente o que você oferece, aumentando assim a
+						taxa de conversão. Por isso, se você anuncia no Google e
+						no Facebook e não tem uma Landing Page, peça agora a sua
+						e se prepare para receber clientes todos os dias!
 					</p>
 				</div>
 			</div>
 			<div class="w-full md:w-1/2 p-8">
 				<div
-					class="md:max-w-md mx-auto overflow-hidden rounded-3xl shadow-8xl"
+					class="md:max-w-md mx-auto overflow-hidden rounded-3xl shadow-2xl"
 				>
 					<div class="p-9">
 						<span
 							class="mb-7 inline-block text-sm text-gray-500 font-semibold uppercase tracking-px"
-							data-config-id="auto-txt-4-1"
-							>Incluso:</span
+							data-config-id="auto-txt-4-1">Incluso:</span
 						>
 						<ul>
 							<li class="mb-4 flex items-center">
@@ -65,7 +63,7 @@
 								>
 									<path
 										d="M7.5 10L9.16667 11.6667L12.5 8.33333M17.5 10C17.5 14.1421 14.1421 17.5 10 17.5C5.85786 17.5 2.5 14.1421 2.5 10C2.5 5.85786 5.85786 2.5 10 2.5C14.1421 2.5 17.5 5.85786 17.5 10Z"
-										stroke="#4F46E5"
+										stroke="#1ED891"
 										stroke-width="2"
 										stroke-linecap="round"
 										stroke-linejoin="round"
@@ -90,7 +88,7 @@
 								>
 									<path
 										d="M7.5 10L9.16667 11.6667L12.5 8.33333M17.5 10C17.5 14.1421 14.1421 17.5 10 17.5C5.85786 17.5 2.5 14.1421 2.5 10C2.5 5.85786 5.85786 2.5 10 2.5C14.1421 2.5 17.5 5.85786 17.5 10Z"
-										stroke="#4F46E5"
+										stroke="#1ED891"
 										stroke-width="2"
 										stroke-linecap="round"
 										stroke-linejoin="round"
@@ -115,7 +113,7 @@
 								>
 									<path
 										d="M7.5 10L9.16667 11.6667L12.5 8.33333M17.5 10C17.5 14.1421 14.1421 17.5 10 17.5C5.85786 17.5 2.5 14.1421 2.5 10C2.5 5.85786 5.85786 2.5 10 2.5C14.1421 2.5 17.5 5.85786 17.5 10Z"
-										stroke="#4F46E5"
+										stroke="#1ED891"
 										stroke-width="2"
 										stroke-linecap="round"
 										stroke-linejoin="round"
@@ -140,7 +138,7 @@
 								>
 									<path
 										d="M7.5 10L9.16667 11.6667L12.5 8.33333M17.5 10C17.5 14.1421 14.1421 17.5 10 17.5C5.85786 17.5 2.5 14.1421 2.5 10C2.5 5.85786 5.85786 2.5 10 2.5C14.1421 2.5 17.5 5.85786 17.5 10Z"
-										stroke="#4F46E5"
+										stroke="#1ED891"
 										stroke-width="2"
 										stroke-linecap="round"
 										stroke-linejoin="round"
@@ -165,7 +163,7 @@
 								>
 									<path
 										d="M7.5 10L9.16667 11.6667L12.5 8.33333M17.5 10C17.5 14.1421 14.1421 17.5 10 17.5C5.85786 17.5 2.5 14.1421 2.5 10C2.5 5.85786 5.85786 2.5 10 2.5C14.1421 2.5 17.5 5.85786 17.5 10Z"
-										stroke="#4F46E5"
+										stroke="#1ED891"
 										stroke-width="2"
 										stroke-linecap="round"
 										stroke-linejoin="round"
@@ -192,7 +190,8 @@
 									class="text-gray-900 font-semibold leading-normal"
 									data-config-id="auto-txt-11-1"
 								>
-									O melhor para pequenas e grandes empresas
+									O melhor para pequenas e grandes empresas,
+									por menos de R$ 1,00 por dia
 								</p>
 							</div>
 							<div class="w-full sm:w-1/2 p-8">
@@ -219,11 +218,8 @@
 							</div>
 						</div>
 						<div class="mt-9">
-							<button
-								class="btn btn-ezpage w-full"
-								type="button"
-								data-config-id="auto-txt-15-1"
-								>Começe grátis por 7 dias</button
+							<a href="/templates" class="btn btn-ezpage w-full"
+								>Começe grátis por 7 dias</a
 							>
 						</div>
 					</div>

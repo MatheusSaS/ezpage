@@ -144,25 +144,13 @@
             class="load-animation reveal-mid sm:-8 pt-4 sm:pt-9 w-full lg:min-h-hero relative"
         >
             <div
-                class="p-2 bg-white border border-2 border-white rounded-xl shadow-video-hero mb-4"
-                data-toggle="video"
-                data-target="#shuffle-video"
-                id="hero-video-wrapper"
+                class="p-2 bg-white border-2 border-white rounded-xl shadow-video-hero mb-4"
             >
-                <video
-                    poster="https://static.shuffle.dev/files/1692477152/shuffle-hero.jpeg"
-                    id="shuffle-video"
-                    src="https://static.shuffle.dev/files/1692476908/shuffle-hero.mp4"
-                    class="rounded-xl"
-                />
+            
+
+                <img src="/ezpage.gif" alt="Computer man" class="rounded-xl">
             </div>
         </div>
 
-        <script>
-            const hw = document.getElementById("hero-video-wrapper");
-            if (hw)
-                hw.innerHTML =
-                    '<video poster="https://static.shuffle.dev/files/1692477152/shuffle-hero.jpeg" id="shuffle-video" muted="" playsinline="" autoplay="" loop="" src="https://static.shuffle.dev/files/1692476908/shuffle-hero.mp4" class="rounded-xl"></video>';
-        </script>
     </div>
 </div>
