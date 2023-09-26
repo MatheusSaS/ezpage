@@ -1,10 +1,9 @@
 <section class="hidden lg:block pb-20 pt-10">
     <div class="container px-4 mx-auto text-center">
         <div class="max-w-5xl mx-auto">
-            <h3 class="text-3xl font-bold">Templates made in Shuffle</h3>
+            <h3 class="text-3xl font-bold">Modelos da Ezpage</h3>
             <p class="mb-8 text-lg opacity-70">
-                Easily create landing pages, dashboards, and e-commerce
-                templates.
+                Modelos atraentes e de alto desempenho para atrair a atenção dos seus clientes
             </p>
             <div class="flex flex-wrap -mx-4 mb-12 items-center justify-center">
                 <div class="w-full lg:w-1/3 px-4">
