@@ -8,6 +8,4 @@
 </script>
 <Content />
 <TemplatesTypes />
-<StepsCreate />
-<PagesTemplate />
 <Prices />
