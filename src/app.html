@@ -4,74 +4,11 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/ezpage.svg" />
 		<meta name="viewport" content="width=device-width" />
+        <script src="https://kit.fontawesome.com/f766d37292.js" crossorigin="anonymous"></script>
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
-	<script>
-        const iframeWrapper = document.getElementById('preview-iframe-wrapper');
-        const iframe = document.getElementById('preview-iframe');
-
-        let previewMode = 'desktop';
-        let previewHeight = 840;
-
-        if (window.localStorage) {
-            previewMode = window.localStorage.getItem('previewMode') ?? previewMode;
-        }
-
-        const sizes = {
-            desktop: 1366,
-            tablet: 778,
-            mobile: 360
-        };
-
-        const resize = () => {
-            var scale = window.innerWidth / sizes[previewMode];
-            iframeWrapper.style.width = `${sizes[previewMode]}px`;
-
-            if (scale >= 1) {
-                iframeWrapper.style.transform = 'scale(1)';
-                iframe.height = previewHeight * scale;
-            } else {
-                iframeWrapper.style.transform = `scale(${scale})`;
-                iframe.height = previewHeight / scale;
-            }
-        };
-
-        resize();
-
-        window.addEventListener('resize', function () {
-            resize();
-        });
-
-        window.addEventListener('message', function (e) {
-            if (e.data.action === 'change-preview') {
-                previewMode = e.data.preview;
-                resize();
-            }
-
-            if (e.data.action === 'resize-preview') {
-                previewHeight = e.data.height;
-                resize();
-            }
-        }, false);
-
-        const addressBar = document.getElementById('iframe-address-bar');
-        const overlay = document.getElementById('iframe-overlay');
-
-        if (addressBar && overlay) {
-            addressBar.addEventListener('click', function () {
-                const dropdown = document.getElementById('iframe-dropdown');
-                dropdown.classList.toggle('hidden');
-                overlay.classList.toggle('hidden');
-            });
-
-            overlay.addEventListener('click', function () {
-                const dropdown = document.getElementById('iframe-dropdown');
-                dropdown.classList.toggle('hidden');
-                overlay.classList.toggle('hidden');
-            });
-        }
-    </script>
+	
 </html>
