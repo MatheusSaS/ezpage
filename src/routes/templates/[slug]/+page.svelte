@@ -83,6 +83,14 @@
             templatename: "colorful-and-full-of-lines-saas-website",
             iframe: "https://shuffle.dev/preview/dee5186d71aa9c6c17b531353b1f632c3a8e2e1f?page=index.html&iframe=1&extension=template",
         },
+        {
+            typename: "Site escritório de advocacia",
+            description: "Modelo de site para escritório de advocacia",
+            subdescription:
+                "Destaque-se no mundo digital com nosso serviço especializado em criação de sites para escritórios de advocacia. Oferecemos soluções personalizadas e profissionais, projetadas especificamente para atender às necessidades únicas da sua prática jurídica. Com design moderno, funcionalidades avançadas e foco na usabilidade, garantimos uma presença online poderosa que amplifica sua credibilidade e atrai novos clientes. Junte-se a nós e leve sua advocacia para o próximo nível digital.",
+            templatename: "template-advocacia",
+            iframe: "https://preview.duda.co/site/SHARD2bf6eb7f77bb641aea5fb60dfcae80928/?preview=true&templateId=1000053&languageCode=en&dm_device=desktop",
+        },
     ];
 
     const creatByTemplate = (name:string) => {

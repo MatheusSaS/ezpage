@@ -28,11 +28,10 @@
                 <h1
                     class="mb-1 font-bold text-3xl md:text-4xl leading-tight text-white"
                 >
-                    Modelos da EZPage por apenas R$ 29,7/mês
+                    Modelos da EZPage por apenas R$ 599
                 </h1>
                 <p class="mb-6 text-white/80 leading-tight text-light">
-                    Use nossos modelos prontos, e crie seu site em minutos por
-                    menos de R$ 1 real por dia
+                    Site entregue em até 5 dias, feito a partir de um modelo de site.
                 </p>
                 <div class="sm:flex items-center">
                     <button

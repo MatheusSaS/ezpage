@@ -13,7 +13,7 @@
 						class="mb-16 lg:mb-52 text-6xl md:text-6xlxl xl:text-10xl font-bold font-heading tracking-px-n leading-none"
 						data-config-id="auto-txt-1-1"
 					>
-						Preço e Plano
+						Preço
 					</h2>
 					<h3
 						class="mb-6 text-lg text-gray-900 font-semibold leading-normal"
@@ -73,7 +73,7 @@
 									class="font-semibold leading-normal"
 									data-config-id="auto-txt-5-1"
 								>
-									7 dias grátis
+									Seu site pronto em 5 dias
 								</p>
 							</li>
 							<li class="mb-4 flex items-center">
@@ -184,14 +184,14 @@
 								<span
 									class="mb-2 inline-block text-sm text-gray-500 font-semibold uppercase tracking-px"
 									data-config-id="auto-txt-10-1"
-									>EZ Plano</span
+									>EZ Preço</span
 								>
 								<p
 									class="text-gray-900 font-semibold leading-normal"
 									data-config-id="auto-txt-11-1"
 								>
 									O melhor para pequenas e grandes empresas,
-									por menos de R$ 1,00 por dia
+									por apenas
 								</p>
 							</div>
 							<div class="w-full sm:w-1/2 p-8">
@@ -200,19 +200,8 @@
 										<span
 											class="text-5xl leading-tight tracking-px-n"
 											data-config-id="auto-txt-12-1"
-											>R$29,7</span
+											>R$599</span
 										>
-										<span
-											class="text-lg text-gray-500 leading-snug tracking-px-n"
-											data-config-id="auto-txt-13-1"
-											>/mês</span
-										>
-									</p>
-									<p
-										class="font-medium text-gray-500 leading-relaxed"
-										data-config-id="auto-txt-14-1"
-									>
-										Pagamento mensal
 									</p>
 								</div>
 							</div>
