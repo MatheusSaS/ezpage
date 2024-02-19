@@ -642,6 +642,71 @@
                     </div>
                 </div>
             </div>
+            <div
+                class="w-full max-w-xs sm:w-1/2 md:w-1/3 lg:w-1/4 2xl:w-1/5 px-6 mb-12"
+            >
+                <div
+                    class="group relative block mb-4 bg-brand-section-dashboard overflow-hidden rounded-xl"
+                >
+                    <div
+                        class="absolute z-50 flex flex-col justify-center bg-[#1F2937] opacity-0 hover:opacity-100 bg-opacity-40 items-center w-full h-full transition duration-100"
+                    >
+                        <div>
+                            <a
+                                href="/templates/colorful-and-full-of-lines-saas-website"
+                                class="flex-1 flex justify-center items-center py-3 px-6 bg-white hover:bg-gray-100 text-sm text-brand-tex text-center font-medium leading-tight rounded transition duration-100"
+                            >
+                                <svg
+                                    class="inline mr-2"
+                                    width="14"
+                                    height="14"
+                                    viewBox="0 0 14 14"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M0.666499 4.93334L6.6665 8.4C6.79983 8.46667 6.8665 8.46667 6.99983 8.46667C7.13317 8.46667 7.19983 8.46667 7.33317 8.4L13.3332 4.93334C13.4665 4.86667 13.5332 4.8 13.5998 4.66667C13.7332 4.33334 13.6665 3.93334 13.3332 3.73334L7.33317 0.266672C7.13317 0.133338 6.8665 0.133338 6.6665 0.266672L0.666499 3.73334C0.533166 3.8 0.466499 3.86667 0.399832 4C0.266499 4.33334 0.333166 4.73334 0.666499 4.93334ZM13.3332 6.4L13.1998 6.33334L7.33317 9.73334C7.13317 9.86667 6.8665 9.86667 6.6665 9.73334L0.799832 6.33334L0.666499 6.4C0.333166 6.60001 0.266499 7 0.399832 7.33334C0.466499 7.46667 0.533166 7.53334 0.666499 7.6L6.6665 11.0667C6.8665 11.2 7.13317 11.2 7.33317 11.0667L13.3332 7.6C13.6665 7.4 13.7332 7 13.5998 6.66667C13.5332 6.53334 13.4665 6.46667 13.3332 6.4ZM13.3332 9.06667L13.1998 9L7.33317 12.4C7.13317 12.5333 6.8665 12.5333 6.6665 12.4L0.799832 9L0.666499 9.06667C0.333166 9.26667 0.266499 9.66667 0.399832 10C0.466499 10.1333 0.533166 10.2 0.666499 10.2667L6.6665 13.7333C6.8665 13.8667 7.13317 13.8667 7.33317 13.7333L13.3332 10.2667C13.6665 10.0667 13.7332 9.66667 13.5998 9.33334C13.5332 9.2 13.4665 9.13334 13.3332 9.06667Z"
+                                        fill="#969CA7"
+                                    />
+                                </svg>
+                                Ver modelo
+                            </a>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <div class="relative h-64 w-full overflow-hidden">
+                            <img
+                                class="absolute bottom-0 right-0 z-10 px-6"
+                                style="margin-right: -1rem;"
+                                src="/advocacia.png"
+                                alt="Site escriorio advocacia"
+                            />
+                            <div
+                                class="absolute top-0 left-0 z-10 mt-6 pl-4 pr-6"
+                            >
+                                <div class="rounded overflow-hidden">
+                                    <img
+                                        class=""
+                                        src="/advocacia.png"
+                                        alt="Site escriorio advocacias"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="w-full max-w-full">
+                        <h3 class="text-lg font-semibold leading-tighter">
+                            Site para escritório de advocacia
+                        </h3>
+                        <span
+                            class="block mb-3 text-sm text-blueGray-500 font-medium"
+                            >Advocacia</span
+                        >
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
