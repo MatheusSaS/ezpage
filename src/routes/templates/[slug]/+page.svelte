@@ -89,7 +89,7 @@
             subdescription:
                 "Destaque-se no mundo digital com nosso serviço especializado em criação de sites para escritórios de advocacia. Oferecemos soluções personalizadas e profissionais, projetadas especificamente para atender às necessidades únicas da sua prática jurídica. Com design moderno, funcionalidades avançadas e foco na usabilidade, garantimos uma presença online poderosa que amplifica sua credibilidade e atrai novos clientes. Junte-se a nós e leve sua advocacia para o próximo nível digital.",
             templatename: "template-advocacia",
-            iframe: "https://preview.duda.co/site/SHARD2bf6eb7f77bb641aea5fb60dfcae80928/?preview=true&templateId=1000053&languageCode=en&dm_device=desktop",
+            iframe: "https://lawyer-website-template.vercel.app/",
         },
     ];
 
@@ -216,7 +216,7 @@
                         on:click={() => creatByTemplate(template.templatename)}
                         class="w-full btn btn-ezpage"
                     >
-                        Eu quero este template 😍
+                        Eu quero este template por apenas R$ 599
                     </button>
                 </div>
             </div>

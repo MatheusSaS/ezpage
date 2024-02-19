@@ -13,7 +13,6 @@
   title="Ezpage"
   desc="Impulsione suas vendas e tenha seu negócio online"
 />
-<InformationTop />
 <div class="relative overflow-hidden">
 	<Navbar />
 	<slot />
